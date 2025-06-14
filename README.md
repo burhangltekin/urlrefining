@@ -109,5 +109,8 @@ curl -X POST -H "Content-Type: application/json" \
 - The service returns clear error messages for invalid input or unsupported operations.
 
 ## License
-MIT
 
+
+![img.png](images/img.png)
+![img_1.png](images/img_1.png)
+![img_2.png](images/img_2.png)
