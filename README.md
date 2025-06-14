@@ -74,6 +74,7 @@ JSON object with the following fields:
 
 ## Testing
 You can test the service using `curl` or any API client (e.g., Postman).
+For those with IDE Goland, you can right-click the project and select run with coverage to execute test scenarios.
 
 ### Example Test Cases
 #### Canonicalization
