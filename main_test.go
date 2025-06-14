@@ -149,30 +149,3 @@ func Test_processURLHandler_NegativeCases(t *testing.T) {
 		})
 	}
 }
-
-func Test_processURL(t *testing.T) {
-	type args struct {
-		rawurl string
-		op     string
-	}
-	tests := []struct {
-		name    string
-		args    args
-		want    string
-		wantErr bool
-	}{
-		// TODO: Add test cases.
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			got, err := processURL(tt.args.rawurl, tt.args.op)
-			if (err != nil) != tt.wantErr {
-				t.Errorf("processURL() error = %v, wantErr %v", err, tt.wantErr)
-				return
-			}
-			if got != tt.want {
-				t.Errorf("processURL() got = %v, want %v", got, tt.want)
-			}
-		})
-	}
-}
